@@ -1,11 +1,11 @@
-import Wrapper from "@/ui/Wrapper";
+import Features from "./components/Features"
+import HeroSection from "./components/HeroSection"
 
 const Landing = () => {
   return (
-    <div className="mt-16">
-      <Wrapper>
-        <h1></h1>
-      </Wrapper>
+    <div className="mt-12 space-y-16">
+      <HeroSection />
+      <Features />
     </div>
   )
 }

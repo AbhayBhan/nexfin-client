@@ -5,19 +5,9 @@
 @tailwind utilities;
 
 :root {
-  --primary: 58, 50, 110;
-  --foreground: 128, 110, 168;
-  --background: 255, 255, 255;
-}
-
-.main-background {
-  background-image: url('../assets/bg.png'); 
-  background-size: cover; 
-  background-attachment: scroll;
-  background-position: top center; 
-  background-repeat: no-repeat; 
-  width: 100%; 
-  height: auto;
+  --primary: 90,25,155;
+  --foreground: 157,78,221;
+  --background: 17,0,44;
 }
 
 
